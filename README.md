@@ -49,6 +49,7 @@ Ideal para desenvolvedores iniciantes que querem aprender como criar skills Alex
 ### Parte 2: Criando a Skill no Amazon Developer Console
 
 > **Esta é a parte mais importante!** Sem isso, sua skill não funcionará.
+
 > **⚠️ IMPORTANTE**: O "tutorial" abaixo **pode estar desatualizado**, dependendo de quais alterações foram feitas no processo e/ou frontend do Amazon Developer Console desde a criação dessa skill (que tem mais de 2 anos funcionando, antes da divulgação deste código publicamente aqui), então, verifique os procedimentos atualizados direto no portal, use IA's pra pedir ajuda e tirar dúvidas, enfim, você vai precisar estudar para implementar.
 
 1. **Acesse o Amazon Developer Console:**
