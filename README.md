@@ -164,34 +164,6 @@ O arquivo `resposta-visual.json` define como as respostas aparecem em dispositiv
 - Imagens de fundo
 - Logo da skill
 
-## 📦 Deploy
-
-### AWS Lambda (Recomendado para Iniciantes)
-
-1. **Acesse o AWS Console** (https://aws.amazon.com)
-2. **Procure por "Lambda" e clique em "Create Function"**
-3. **Configure:**
-   - Function name: `alexa-chatgpt-skill`
-   - Runtime: Node.js 18.x
-   - Permissions: Create a new role with basic Lambda permissions
-4. **Faça upload do código:**
-   - Compacte todos os arquivos (exceto `node_modules`) em um ZIP
-   - No Lambda Console: "Upload from" → "Upload ZIP file"
-   - Ou use: `npm run build && aws lambda update-function-code...`
-5. **Configure variáveis de ambiente (opcional):**
-   - Adicione `OPENAI_API_KEY` se quiser tirar do código
-6. **Copie o Function ARN**
-7. **No Developer Console da Alexa:** Endpoint → AWS Lambda ARN → Cole o ARN
-
-### Servidor Próprio (Avançado)
-
-1. Configure um servidor HTTPS (certificado SSL obrigatório)
-2. Instale as dependências: `npm install`
-3. Execute: `node index.js`
-4. Configure o endpoint na skill com sua URL
-
-> **💡 Dica**: Para desenvolvimento, use o Alexa-hosted (Node.js) no próprio Developer Console - é mais fácil para começar!
-
 ## 🐛 Troubleshooting
 
 ### "Skill não foi encontrada"
